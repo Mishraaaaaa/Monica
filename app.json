@@ -1,5 +1,5 @@
 {
-    "name": "suhail-md@1.3.7",
+    "name": "Monica@1.1",
     "logo": "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
     "success_url": "/suhail/",
     "app_url": "/qr/",
@@ -7,30 +7,30 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",    
-        "value": "Suhail Ser",
+        "value": "Mishra",
         "required" :true
       },   
        
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
-        "value": "false",
+        "value": "true",
         "required" :false
       },
        
       "GOODBYE": {
         "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-        "value": "false",
+        "value": "true",
         "required" :false
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required" :false,    
-        "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+        "value": "Monica"
       }, 
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
         "required" :false,    
-        "value": "Asia/Karachi"
+        "value": "Asia/Kolkata"
       },  
       "FLUSH": {
         "description": " Make it 'true' if bot connected but not responed (After deployement!)",
